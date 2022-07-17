@@ -1,8 +1,8 @@
 # Following C++ Programming All-in-One Tutorial Series (10 HOURS!)
-https://youtu.be/_bYFu9mBnr4
 
+[Caleb on youtube](https://youtu.be/_bYFu9mBnr4) "C++ Study")
 
-[Find me on Facebook](https://www.facebook.com/TheRayCode/ "The Ray Code")
+[Find me on Facebook](https://www.facebook.com/TheRayCode/)"The Ray Code")
 
 [I'm a reference-style link][Arbitrary case-insensitive reference text]
 
