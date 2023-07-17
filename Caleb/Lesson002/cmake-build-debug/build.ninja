@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Lesson001
+# Project: Lesson002
 # Configurations: Debug
 # =============================================================================
 
@@ -39,44 +39,44 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/ray/TheRayCode/CPPstudy/Caleb/Lesson001/cmake-build-debug/
+cmake_ninja_workdir = /home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Lesson001
+# Object build statements for EXECUTABLE target Lesson002
 
 
 #############################################
-# Order-only phony target for Lesson001
+# Order-only phony target for Lesson002
 
-build cmake_object_order_depends_target_Lesson001: phony || CMakeFiles/Lesson001.dir
+build cmake_object_order_depends_target_Lesson002: phony || CMakeFiles/Lesson002.dir
 
-build CMakeFiles/Lesson001.dir/youtube.cpp.o: CXX_COMPILER__Lesson001_Debug /home/ray/TheRayCode/CPPstudy/Caleb/Lesson001/youtube.cpp || cmake_object_order_depends_target_Lesson001
-  DEP_FILE = CMakeFiles/Lesson001.dir/youtube.cpp.o.d
+build CMakeFiles/Lesson002.dir/youtube.cpp.o: CXX_COMPILER__Lesson002_Debug /home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/youtube.cpp || cmake_object_order_depends_target_Lesson002
+  DEP_FILE = CMakeFiles/Lesson002.dir/youtube.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  OBJECT_DIR = CMakeFiles/Lesson001.dir
-  OBJECT_FILE_DIR = CMakeFiles/Lesson001.dir
+  OBJECT_DIR = CMakeFiles/Lesson002.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lesson002.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Lesson001
+# Link build statements for EXECUTABLE target Lesson002
 
 
 #############################################
-# Link the executable Lesson001
+# Link the executable Lesson002
 
-build Lesson001: CXX_EXECUTABLE_LINKER__Lesson001_Debug CMakeFiles/Lesson001.dir/youtube.cpp.o
+build Lesson002: CXX_EXECUTABLE_LINKER__Lesson002_Debug CMakeFiles/Lesson002.dir/youtube.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/Lesson001.dir
+  OBJECT_DIR = CMakeFiles/Lesson002.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Lesson001
-  TARGET_PDB = Lesson001.dbg
+  TARGET_FILE = Lesson002
+  TARGET_PDB = Lesson002.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/ray/TheRayCode/CPPstudy/Caleb/Lesson001/cmake-build-debug && /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/ccmake -S/home/ray/TheRayCode/CPPstudy/Caleb/Lesson001 -B/home/ray/TheRayCode/CPPstudy/Caleb/Lesson001/cmake-build-debug
+  COMMAND = cd /home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug && /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/ccmake -S/home/ray/TheRayCode/CPPstudy/Caleb/Lesson002 -B/home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -88,7 +88,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/ray/TheRayCode/CPPstudy/Caleb/Lesson001/cmake-build-debug && /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/ray/TheRayCode/CPPstudy/Caleb/Lesson001 -B/home/ray/TheRayCode/CPPstudy/Caleb/Lesson001/cmake-build-debug
+  COMMAND = cd /home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug && /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/ray/TheRayCode/CPPstudy/Caleb/Lesson002 -B/home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -104,9 +104,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/ray/TheRayCode/CPPstudy/Caleb/Lesson001/cmake-build-debug
+# Folder: /home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug
 
-build all: phony Lesson001
+build all: phony Lesson002
 
 # =============================================================================
 # Built-in targets

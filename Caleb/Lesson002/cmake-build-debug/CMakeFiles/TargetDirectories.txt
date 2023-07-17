@@ -1,0 +1,3 @@
+/home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug/CMakeFiles/Lesson002.dir
+/home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ray/TheRayCode/CPPstudy/Caleb/Lesson002/cmake-build-debug/CMakeFiles/rebuild_cache.dir
