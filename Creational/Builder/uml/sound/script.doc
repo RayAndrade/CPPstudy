@@ -1,0 +1,25 @@
+
+
+ConcreteBuilder
+constructs and assembles parts of product by implementing the Builder interface
+
+defines and keeps tract of the representation it creates
+
+provides an intrerface for retrieving the product
+
+Director
+constructs an object using the Builder interface
+
+Product
+
+represents the complex object under construction. ConcreteBuilder builds the product's internal representation and defines the process by which it is assembles
+
+includes classes that define the constituent parts including interfaces for assembling the parts into a final result
+
+COLLABORATIONS
+The Client creates the Director and configures it with the desired Builder object
+
+Director notifies the Builder whenever the product is built
+
+The client retrives the Product from the Builder
+ 
