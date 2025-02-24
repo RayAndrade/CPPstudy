@@ -1,14 +1,21 @@
 #include <iostream>
+#include "ConcreteCreator.h"
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
-    // <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "TheRayCode is AWESOME!!! using " << lang << "!\n";
+    Creator* creatorA = new ConcreteCreatorA();
+    Product* productA = creatorA->factoryMethod();
+    productA->use(); // Output: Using ConcreteProductA
 
+    Creator* creatorB = new ConcreteCreatorB();
+    Product* productB = creatorB->factoryMethod();
+    productB->use(); // Output: Using ConcreteProductB
 
+    delete productA;
+    delete creatorA;
+    delete productB;
+    delete creatorB;
     return 0;
 }
 
