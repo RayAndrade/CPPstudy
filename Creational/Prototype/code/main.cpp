@@ -1,21 +1,31 @@
-#include <iostream>
-#include "ConcretePrototype.h"
+#include "ConcretePrototype1.h"
+#include "ConcretePrototype2.h"
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// Created by ray on 5/8/25.
+//
 int main() {
-    ConcretePrototype* prototype = new ConcretePrototype("Example");
-    ConcretePrototype* clonedPrototype = dynamic_cast<ConcretePrototype*>(prototype->clone());
 
-    std::cout << "Original object data: " << prototype->getData() << std::endl;
-    std::cout << "Cloned object data: " << clonedPrototype->getData() << std::endl;
+    Prototype* original1 = new ConcretePrototype1("Initial");
+    original1->print();
 
-    delete prototype;
-    delete clonedPrototype;
+    Prototype* clone1 = original1->clone();
+    static_cast<ConcretePrototype1*>(clone1)->setState("Modified Clone");
+    clone1->print();
+    original1->print();
+
+    Prototype* original2 = new ConcretePrototype2(42);
+    original2->print();
+
+    Prototype* clone2 = original2->clone();
+    static_cast<ConcretePrototype2*>(clone2)->setNumber(99);
+    clone2->print();
+    original2->print();
+
+    std::cout << std::endl;
+
+    delete original1;
+    delete clone1;
+    delete original2;
+    delete clone2;
     return 0;
 }
-
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
