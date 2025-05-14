@@ -164,7 +164,7 @@ int main() {
 
     std::cout << std::endl;
 
-    // --- Prototype 2 ---
+    // --- new ConcretePrototype1 ---
     Prototype* original2 = new ConcretePrototype2(42);
     original2->print();
 
