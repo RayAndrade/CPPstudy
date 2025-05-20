@@ -217,7 +217,7 @@ ConcretePrototype2 number: 42
 ConcretePrototype2 number: 99
 ConcretePrototype2 number: 42
 
-ConcretePrototype1 destructor called.
+ConcretePrototype1  called.
 ConcretePrototype1 destructor called.
 ConcretePrototype2 destructor called.
 ConcretePrototype2 destructor called.
