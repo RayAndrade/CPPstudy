@@ -1,0 +1,80 @@
+# 🎙️ Ubuntu + PipeWire + Audacity + PD100X Mic Troubleshooting
+
+This README documents the troubleshooting steps taken to restore microphone recording functionality using the **PD100X Podcast Microphone** with **Audacity** on **Ubuntu (PipeWire-based system)**.
+
+---
+
+## ✅ System Overview
+
+- **OS**: Ubuntu
+- **Audio Server**: PipeWire (replacing PulseAudio)
+- **Microphone**: PD100X Podcast Microphone
+- **Audacity Version(s)**:
+  - Flatpak (latest from Flathub)
+  - Native (`apt install audacity`)
+
+---
+
+## 🔍 What Was Verified
+
+- ✅ PipeWire is fully active (`pactl info` shows `PulseAudio (on PipeWire ...)`)
+- ✅ PD100X mic is recognized and available as a source:  
+  `alsa_input.usb-352f_PD100X_Podcast_Microphone_...:capture_MONO`
+- ✅ System playback is working (e.g., YouTube audio)
+- ✅ Mic works outside of Audacity (`arecord` tested)
+
+---
+
+## 🧪 What Was Tried
+
+### 1. **Flatpak Audacity + PipeWire JACK Bridge**
+- Launched with:  
+  `pw-jack flatpak run org.audacityteam.Audacity`
+- Issue: Audacity did not appear as a JACK client (not connectable in Helvum or `pw-link`)
+- Mic showed up in `pw-link --output`, but no matching Audacity input was available in `pw-link --input`
+
+### 2. **Helvum Visual Routing**
+- Installed and opened Helvum via Flatpak
+- Mic node was visible ✅
+- Audacity node was not visible ❌
+
+### 3. **Manual PipeWire Linking with `pw-link`**
+- Listed mic output port successfully
+- Could not complete routing because Audacity input port was not exposed
+
+### 4. **Installed Native Audacity**
+- Via: `sudo apt install audacity`
+- Launched with and without JACK:
+  - `audacity` (uses ALSA or Pulse)
+  - `pw-jack audacity` (uses JACK)
+- Still did not show up in Helvum or `pw-link` as a connectable input
+
+---
+
+## ❗ Issues Identified
+
+- Flatpak Audacity does **not expose JACK input ports** — likely due to sandboxing
+- Native Audacity also **did not register as a JACK client**, possibly due to runtime environment or launch method
+
+---
+
+## ✅ Confirmed Working Components
+
+| Component | Status |
+|----------|--------|
+| PD100X Mic | ✅ Detected |
+| PipeWire | ✅ Running correctly |
+| Helvum | ✅ Installed and working |
+| `pw-link` | ✅ Lists mic port |
+| Flatpak Audacity | ⚠️ Limited JACK visibility |
+| Native Audacity | ⚠️ Needs test with ALSA/Pulse backend |
+
+---
+
+## 🔮 Next Steps
+
+### ✅ Option 1: Try Native Audacity Without JACK
+
+```bash
+audacity
+

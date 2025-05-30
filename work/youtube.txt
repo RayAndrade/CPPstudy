@@ -1,0 +1,30 @@
+Kickstart your journey into C++ Design Patterns with my latest video! 🎥 This episode dives into the Singleton Pattern—why it matters, UML insights, and hands-on C++ code examples.
+
+Creational Patterns 0:42
+Singleton
+Factory
+Abstract Factory
+Builder
+Prototype
+
+Structural Patterns  1:21
+Adapter
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+
+Behavioral Patterns  2:13
+Chain Of Responsibility
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template
+Visitor
