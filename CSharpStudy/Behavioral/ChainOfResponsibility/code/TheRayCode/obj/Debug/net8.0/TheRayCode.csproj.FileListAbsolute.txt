@@ -1,0 +1,15 @@
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/bin/Debug/net8.0/TheRayCode
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/bin/Debug/net8.0/TheRayCode.deps.json
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/bin/Debug/net8.0/TheRayCode.runtimeconfig.json
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/bin/Debug/net8.0/TheRayCode.dll
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/bin/Debug/net8.0/TheRayCode.pdb
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.GeneratedMSBuildEditorConfig.editorconfig
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.AssemblyInfo.cs
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.sourcelink.json
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.dll
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/refint/TheRayCode.dll
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.pdb
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/TheRayCode.genruntimeconfig.cache
+/home/ray/TheRayCode/CSharpStudy/Behavioral/ChainOfResponsibility/code/TheRayCode/obj/Debug/net8.0/ref/TheRayCode.dll

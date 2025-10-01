@@ -1,0 +1,19 @@
+*.mp4
+*.mpg
+*.odp
+*.mdj
+*.mkv
+
+# Ignore all .log files
+
+
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore a specific file
+config.txt
+
+# Ignore all files in the temp directory
+
