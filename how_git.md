@@ -1,3 +1,7 @@
+xxxx
+
+
+
 Absolutely! Here's a concise **`.gitignore` cheat sheet** to help you understand how it works and how to write entries properly.
 
 ---
