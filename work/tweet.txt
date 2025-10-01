@@ -1,5 +1,0 @@
-🚀 New Video Alert! 🎥
-Dive into the world of Design Patterns with C++! Whether you're a beginner or pro, this series will level up your coding game. Start with our intro & unlock the power of reusable, scalable design. 🧩💻
-
-📺 Watch now: [Insert Link]
-#Programming #Cpp #DesignPatterns #CodeBetter
