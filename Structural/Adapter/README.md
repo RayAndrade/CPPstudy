@@ -20,7 +20,7 @@ This pattern typically involves three roles:
 2. **Adaptee**: This is the existing interface that needs to be adapted.
 3. **Adapter**: This is the class that joins functionalities of independent or incompatible interfaces (i.e., it makes the Adaptee's interface compatible with the Target's interface).
 
-**Importance for a C++ Developer**:
+**Why the Adapter Design Pattern is Important for a C++ Developer**:
 
 1. **Reusability of Legacy Code**: C++ projects often involve legacy code or third-party libraries. Instead of rewriting these components, the Adapter pattern lets developers make this old code work with new systems.
 
