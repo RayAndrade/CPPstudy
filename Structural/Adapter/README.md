@@ -56,8 +56,14 @@ In summary, understanding the Adapter design pattern equips a C++ developer with
 3. **Cross-Language Bridges**: Connects C++ code with systems written in other languages like Python or Java.
 
 **Threats**  
+
+
 1. **Bypass Risks**: Clients accessing the underlying incompatible interface can compromise the adapter’s integrity.  
+
+
 2. **Overengineering**: Excessive reliance on adapters might clutter the design.  
+
+
 3. **Simpler Alternatives**: Refactoring or direct integration may achieve the same goals with less overhead.
 
 ---
