@@ -5,7 +5,6 @@
 void ClientCode(const Target *target) {
     std::cout << target->Request();
 }
-
 int main() {
     std::cout << "Client: I can work just fine with the Target objects:\n";
     Target *target = new Target;

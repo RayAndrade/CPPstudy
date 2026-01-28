@@ -1,16 +1,16 @@
 //
-// Created by ray on 8/29/23.
+// Created by ray on 2026-01-27.
 //
 
-#ifndef EXAMPLE_ADAPTEE_H
-#define EXAMPLE_ADAPTEE_H
+#ifndef EXAMPLE3_ADAPTEE_H
+#define EXAMPLE3_ADAPTEE_H
 
 #include "Target.h"
-
 class Adaptee {
 public:
     std::string SpecificRequest() const {
-        return "!!!EMOSEWA si edoC yaR ehT";}
+        return "!!!EMOSEWA si edoC yaR ehT";
+    }
 };
 
-#endif //EXAMPLE_ADAPTEE_H
+#endif //EXAMPLE3_ADAPTEE_H

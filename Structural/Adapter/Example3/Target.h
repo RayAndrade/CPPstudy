@@ -1,9 +1,9 @@
 //
-// Created by ray on 8/29/23.
+// Created by ray on 2026-01-27.
 //
 
-#ifndef EXAMPLE_TARGET_H
-#define EXAMPLE_TARGET_H
+#ifndef EXAMPLE3_TARGET_H
+#define EXAMPLE3_TARGET_H
 #include <iostream>
 
 class Target {
@@ -13,4 +13,5 @@ public:
         return "Target: The default target's behavior.";
     }
 };
-#endif //EXAMPLE_TARGET_H
+
+#endif //EXAMPLE3_TARGET_H

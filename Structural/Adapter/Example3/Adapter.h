@@ -1,14 +1,13 @@
 //
-// Created by ray on 8/29/23.
+// Created by ray on 2026-01-27.
 //
 
-#ifndef EXAMPLE_ADAPTER_H
-#define EXAMPLE_ADAPTER_H
+#ifndef EXAMPLE3_ADAPTER_H
+#define EXAMPLE3_ADAPTER_H
 
 #include <algorithm>
 #include "Adaptee.h"
-
-class Adapter : public Target{
+class Adapter : public Target {
 private:
     Adaptee *adaptee_;
 public:
@@ -20,4 +19,4 @@ public:
     }
 };
 
-#endif //EXAMPLE_ADAPTER_H
+#endif //EXAMPLE3_ADAPTER_H
