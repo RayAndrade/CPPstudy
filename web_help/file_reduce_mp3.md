@@ -113,10 +113,10 @@ ffmpeg -i input.mov \
 ## 🔹 Reduce Video Size Further (Courses)
 
 ```bash
-ffmpeg -i input.mp4 \
+ffmpeg -i csharp-structural-adapter-uml.mp4 \
   -c:v libx264 -preset slow -crf 26 \
   -c:a aac -b:a 96k \
-  smaller.mp4
+  csharp-structural-adapter-uml-smaller.mp4
 ```
 
 ---
