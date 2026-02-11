@@ -1,13 +1,12 @@
 //
-// Created by ray on 1/15/24.
+// Created by ray on 2026-02-10.
 //
 
 #ifndef EXAMPLE3_DOGHANDLER_H
 #define EXAMPLE3_DOGHANDLER_H
-
 #include "AbstractHandler.h"
 
-class DogHandler : public AbstractHandler{
+class DogHandler: public AbstractHandler {
 public:
     std::string Handle(std::string request)  {
         if (request == "Bone") {

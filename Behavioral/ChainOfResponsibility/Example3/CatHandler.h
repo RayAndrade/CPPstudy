@@ -1,14 +1,12 @@
 //
-// Created by ray on 1/15/24.
+// Created by ray on 2026-02-10.
 //
 
 #ifndef EXAMPLE3_CATHANDLER_H
 #define EXAMPLE3_CATHANDLER_H
-
 #include "AbstractHandler.h"
 
-
-class CatHandler: public AbstractHandler {
+class CatHandle: public AbstractHandler {
 public:
     std::string Handle(std::string request)  {
         if (request == "Catnip") {
@@ -18,4 +16,5 @@ public:
         }
     }
 };
+
 #endif //EXAMPLE3_CATHANDLER_H

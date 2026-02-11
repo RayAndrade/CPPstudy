@@ -1,13 +1,12 @@
 //
-// Created by ray on 1/15/24.
+// Created by ray on 2026-02-10.
 //
 
 #ifndef EXAMPLE3_MOUSEHANDLER_H
 #define EXAMPLE3_MOUSEHANDLER_H
-
 #include "AbstractHandler.h"
 
-class MouseHandler : public AbstractHandler  {
+class MouseHandler : public AbstractHandler {
 public:
     std::string Handle(std::string request)  {
         if (request == "Cheese") {
@@ -17,5 +16,4 @@ public:
         }
     }
 };
-
 #endif //EXAMPLE3_MOUSEHANDLER_H

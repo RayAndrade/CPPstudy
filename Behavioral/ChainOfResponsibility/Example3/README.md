@@ -1,5 +1,3 @@
-[up](../README.md) | [script](script/page01.md)
-
 ## Chain-of-responsibility pattern c++
 
 The Handler interface declares a method for building the chain of handlers.
@@ -40,7 +38,6 @@ public:
     }
 };
 ```
-![ChainOfResponsibility](/UMLs/images/ChainOfResponsibility/ChainOfResponsibility-1.png)
 
 All Concrete Handlers either handle a request or pass it to the next handler in the chain.
 The mouse take the chees.
@@ -174,18 +171,4 @@ Client: Who wants a Cup of coffee?
 ```
 
 The Ray Code is AWESOME!!!
-
-[Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
-
-----------------------------------------------------------------------------------------------------
-
-Find Ray on:
-
-[facebook](https://www.facebook.com/TheRayCode/)
-
-[youtube](https://www.youtube.com/user/AndradeRay/)
-
-[The Ray Code](https://www.RayAndrade.com)
-
-[Ray Andrade](https://www.RayAndrade.org)
 
