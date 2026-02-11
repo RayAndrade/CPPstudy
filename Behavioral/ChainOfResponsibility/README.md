@@ -1,17 +1,3 @@
-# [TheRayCode](../../../README.md) is AWESOME!!!
-
-[top](../README.md)
-
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
-
-**C++ Chain Of Responsibility Design Pattern**
-
-|Pattern|   |   |   |
-|---|---|---|---|
-| [**Chain Of Responsibility**](README.md) | [C#](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-
-[Example](Example/README.md) | [Example2](Example2/README.md)  | [Example3](Example3/README.md)
-
 **Chain Of Responsibility Design Pattern**:
 
 The Chain of Responsibility Design Pattern allows an object to pass a request along a chain of potential handlers until an object handles it or the end of the chain is reached. In essence, it decouples the sender from the receiver by letting more than one object handle the request. The pattern consists of a series of processing objects where each object contains logic that defines the types of command objects that it can handle, and how to pass off the rest to the next object in the chain.
