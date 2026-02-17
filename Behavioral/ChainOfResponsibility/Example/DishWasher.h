@@ -1,10 +1,9 @@
 //
-// Created by ray on 1/11/24.
+// Created by ray on 2026-02-15.
 //
 
 #ifndef EXAMPLE_DISHWASHER_H
 #define EXAMPLE_DISHWASHER_H
-
 #include <iostream>
 #include <memory>
 
@@ -17,6 +16,5 @@ public:
 protected:
     std::shared_ptr<DishWasher> nextWasher;
 };
-
 
 #endif //EXAMPLE_DISHWASHER_H

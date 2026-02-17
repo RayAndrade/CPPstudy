@@ -1,5 +1,5 @@
 //
-// Created by ray on 1/11/24.
+// Created by ray on 2026-02-15.
 //
 
 #ifndef EXAMPLE_TEENAGER_H
@@ -7,7 +7,7 @@
 
 #include "DishWasher.h"
 
-class Teenager : public DishWasher {
+class Teenager: public DishWasher {
 public:
     void washDishes(const std::string& dishType) override {
         if (dishType == "Plate") {
@@ -17,7 +17,7 @@ public:
             if (nextWasher) nextWasher->washDishes(dishType);
         }
     }
-};
 
+};
 
 #endif //EXAMPLE_TEENAGER_H
