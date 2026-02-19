@@ -94,5 +94,5 @@ Translation base:
 English: ESV
 
 Scripture:
-Matthew 19
+Genesis 39
  
