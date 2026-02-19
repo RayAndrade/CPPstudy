@@ -40,18 +40,28 @@ Only words that appear in the chapter
 
 Adjectives
 
+Adjectives
+
 Exactly 7
 
-No proper adjectives derived from place names
+Only words that appear in the chapter (ESV)
 
-No ethnic identifiers
+No proper adjectives
 
-No nationality adjectives (e.g., Egyptian, Hebrew)
+No ethnic identifiers (including adjectival forms)
+
+No nationality adjectives
+
+No adjectives derived from people groups
+
+No adjectives derived from place names
+
+No relational identity adjectives (e.g., Hebrew, Egyptian, royal, king’s)
 
 If fewer exist, clearly state that
 
-Only words that appear in the chapter
-
+Frequency Rule:
+Select the least frequent qualifying adjectives in this chapter (ESV only).
 Word Frequency Requirement
 
 For each vocabulary section:
