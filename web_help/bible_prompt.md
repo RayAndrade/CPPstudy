@@ -176,5 +176,5 @@ Translation base:
 English: ESV
 
 Scripture:
-Genesis 39
+Genesis 40
  
