@@ -1,29 +1,101 @@
+Structured Bible Study Prompt (Revised)
+
 We are continuing structured Bible study.
 
-Please follow my exact rules:
+Follow these exact rules.
 
-1) Summary in clear concise English.
-2) Vocabulary Sections in this order:
-   - Nouns (exactly 7, no proper nouns, no divine titles, no place names)
-   - Verbs (exactly 7, list in order of first appearance)
-   - Adjectives (exactly 7, if fewer exist state clearly)
+Summary
 
-3) Tables must include:
+Clear, concise English.
+Based on ESV.
+No devotional reflection.
+No added commentary.
+
+Vocabulary Sections (in this exact order)
+Nouns
+
+Exactly 7
+
+No proper nouns
+
+No divine titles
+
+No place names
+
+No geographic terms
+
+No ethnic identifiers
+
+No nationality adjectives functioning as nouns
+
+Only words that appear in the chapter
+
+Verbs
+
+Exactly 7
+
+List in order of first appearance in the chapter
+
+Only words that appear in the chapter
+
+Adjectives
+
+Exactly 7
+
+No proper adjectives derived from place names
+
+No ethnic identifiers
+
+No nationality adjectives (e.g., Egyptian, Hebrew)
+
+If fewer exist, clearly state that
+
+Only words that appear in the chapter
+
+Word Frequency Requirement
+
+For each vocabulary section:
+
+Select the least frequent words within this chapter (ESV only).
+
+Rank by lowest occurrence first.
+
+If multiple words occur the same minimum number of times, choose any among them.
+
+Frequency measurement is limited strictly to the current chapter (not the whole Bible).
+
+Tables Format (Required)
+
+Each section must use this format:
+
 | English | German (HFA) | Portuguese (ARC) | Verses | Example Usage |
 
 Rules:
-- List only verse numbers (no chapter numbers)
-- Only words that appear in the chapter
-- No added commentary
-- No devotional reflections
-- Only note comparisons if explicitly pronounced in the text
 
-4) End with:
-- 2 Portuguese (ARC) grammar notes
-- 2 German (HFA) grammar notes
+List only verse numbers (no chapter numbers).
 
-Translation base:
-English: ESV
+Only words that appear in the chapter.
+
+No added commentary.
+
+No devotional reflections.
+
+Only note comparisons if explicitly pronounced in the text.
+
+Grammar Notes (End Section)
+
+End with:
+
+2 Portuguese (ARC) grammar notes
+2 German (HFA) grammar notes
+
+Grammar notes must:
+
+Be linguistic only
+
+Be short and technical
+
+No theological commentary
 
 We are continuing with: Genesis 38
 
