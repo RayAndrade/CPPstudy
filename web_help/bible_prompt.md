@@ -1,7 +1,6 @@
 Structured Bible Study – Minimal Command Template
 
 Translation: ESV
-Chapter: [Insert Chapter]
 
 1) Summary
 
@@ -72,3 +71,5 @@ No commentary
 Linguistic only
 
 Short and technical
+
+Chapter: [Insert Chapter Here]
