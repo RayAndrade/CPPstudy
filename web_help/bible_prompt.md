@@ -1,98 +1,75 @@
-We are continuing structured Bible study.
+Structured Bible Study – Minimal Command Template
 
-Please follow my exact rules:
-
-1) Summary in clear concise English.
-2) Vocabulary Sections in this order:
-   - Nouns (exactly 7, no proper nouns, no divine titles, no place names)
-   - Verbs (exactly 7, list in order of first appearance)
-   - Adjectives (exactly 7, if fewer exist state clearly)
-
-3) Tables must include:
-| English | German (HFA) | Portuguese (ARC) | Verses | Example Usage |
-
-Rules:
-- List only verse numbers (no chapter numbers)
-- Only words that appear in the chapter
-- No added commentary
-- No devotional reflections
-- Only note comparisons if explicitly pronounced in the text
-
-4) End with:
-- 2 Portuguese (ARC) grammar notes
-- 2 German (HFA) grammar notes
-
-Translation base:
-English: ESV
-
-We are continuing with: Genesis 38
-
-
-
-We are continuing structured Bible study.
-
-Please follow my exact rules:
+Translation: ESV
 
 1) Summary
-- Clear, concise English.
-- Based on ESV.
-- No devotional reflection.
-- No added commentary.
 
-2) Vocabulary Sections (in this exact order)
+Clear, concise English.
+Based strictly on ESV.
+No devotional reflection.
+No added commentary.
 
-Nouns
-- Exactly 7
-- No proper nouns
-- No divine titles
-- No place names
-- Only words that appear in the chapter
+2) Vocabulary (in this order)
+Nouns (7)
 
-Verbs
-- Exactly 7
-- List in order of first appearance in the chapter
-- Only words that appear in the chapter
+Must appear in chapter
 
-Adjectives
-- Exactly 7
-- If fewer exist, clearly state that
-- Only words that appear in the chapter
+No proper nouns
 
-3) Word Frequency Requirement
+No divine titles
 
-For each vocabulary section:
-- Select the least frequent words within this chapter (ESV only).
-- Rank by lowest occurrence first.
-- If multiple words occur the same minimum number of times, choose any among them.
-- Frequency measurement is limited strictly to the current chapter (not the whole Bible).
+No place names
 
-4) Tables Format (Required)
+No geographic or ethnic terms
 
-Each section must use this table format:
+Verbs (7)
+
+Must appear in chapter
+
+List in order of first appearance
+
+Adjectives (7)
+
+Must appear in chapter
+
+No proper adjectives
+
+No ethnic/national/relational identity adjectives
+
+If fewer exist, state that
+
+3) Frequency Rule
+
+For each section:
+
+Select least frequent qualifying words in this chapter (ESV only)
+
+Rank lowest occurrence first
+
+Ties allowed
+
+Frequency limited strictly to this chapter
+
+4) Table Format (required for each section)
 
 | English | German (HFA) | Portuguese (ARC) | Verses | Example Usage |
 
 Rules:
-- List only verse numbers (no chapter numbers).
-- Only words that appear in the chapter.
-- No added commentary.
-- No devotional reflections.
-- Only note comparisons if explicitly pronounced in the text.
 
-5) Grammar Notes (End Section)
+Verse numbers only
 
-End with:
-- 2 Portuguese (ARC) grammar notes
-- 2 German (HFA) grammar notes
+Words must appear in chapter
 
-Grammar notes must:
-- Be linguistic only
-- Be short and technical
-- No theological commentary
+No commentary
 
-Translation base:
-English: ESV
+5) End With
 
-Scripture:
-Matthew 19
- 
+2 Portuguese (ARC) grammar notes
+
+2 German (HFA) grammar notes
+
+Linguistic only
+
+Short and technical
+
+Chapter: [Insert Chapter Here]
