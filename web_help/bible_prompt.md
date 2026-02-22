@@ -1,15 +1,9 @@
-Structured Bible Study – Minimal Command Template
-
-Translation: ESV
-
-1) Summary
-
 Clear, concise English.
 Based strictly on ESV.
 No devotional reflection.
 No added commentary.
 
-2) Vocabulary (in this order)
+Vocabulary (in this order)
 Nouns (7)
 
 Must appear in chapter
@@ -38,7 +32,7 @@ No ethnic/national/relational identity adjectives
 
 If fewer exist, state that
 
-3) Frequency Rule
+Frequency Rule
 
 For each section:
 
@@ -50,26 +44,43 @@ Ties allowed
 
 Frequency limited strictly to this chapter
 
-4) Table Format (required for each section)
+Required Table Format (FOR EACH SECTION)
 
-| English | German (HFA) | Portuguese (ARC) | Verses | Example Usage |
+| English | German (HFA) | Portuguese (ARC) | Verses | Example Usage (ESV Full Phrase) |
 
-Rules:
+Column Rules:
 
-Verse numbers only
+Verses column: Verse numbers only (e.g., 4, 12, 29)
 
-Words must appear in chapter
+Example Usage column:
+
+Must contain the exact English phrase from the ESV
+
+Must include the actual word listed in the English column
+
+Must NOT repeat the verse number
+
+Must NOT be summarized
+
+Must be a direct quotation (short phrase, not full verse)
+
+Words must appear in the chapter
 
 No commentary
 
-5) End With
+End With
+Portuguese (ARC) Grammar Notes
 
-2 Portuguese (ARC) grammar notes
-
-2 German (HFA) grammar notes
+2 notes
 
 Linguistic only
 
 Short and technical
 
-Chapter: [Insert Chapter Here]
+German (HFA) Grammar Notes
+
+2 notes
+
+Linguistic only
+
+Short and technical
