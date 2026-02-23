@@ -63,4 +63,4 @@ Linguistic only
 
 Short and technical
 
-Chapter: Genesis 42
+Chapter: Matthäus 22
