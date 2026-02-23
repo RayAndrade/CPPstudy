@@ -1,11 +1,11 @@
-Clear, concise English.
-Based strictly on ESV.
-No devotional reflection.
-No added commentary.
+Structured Bible Study – Minimal Command Template
 
-Vocabulary (in this order)
-Nouns (7)
+Translation: ESV
 
+Summary
+Clear, concise English. Based strictly on ESV. No devotional reflection. No added commentary.
+
+Vocabulary (in this order) Nouns (7)
 Must appear in chapter
 
 No proper nouns
@@ -33,7 +33,6 @@ No ethnic/national/relational identity adjectives
 If fewer exist, state that
 
 Frequency Rule
-
 For each section:
 
 Select least frequent qualifying words in this chapter (ESV only)
@@ -44,43 +43,24 @@ Ties allowed
 
 Frequency limited strictly to this chapter
 
-Required Table Format (FOR EACH SECTION)
+Table Format (required for each section)
+| English | German (HFA) | Portuguese (ARC) | Verses | Example Usage |
 
-| English | German (HFA) | Portuguese (ARC) | Verses | Example Usage (ESV Full Phrase) |
+Rules:
 
-Column Rules:
+Verse numbers only
 
-Verses column: Verse numbers only (e.g., 4, 12, 29)
-
-Example Usage column:
-
-Must contain the exact English phrase from the ESV
-
-Must include the actual word listed in the English column
-
-Must NOT repeat the verse number
-
-Must NOT be summarized
-
-Must be a direct quotation (short phrase, not full verse)
-
-Words must appear in the chapter
+Words must appear in chapter
 
 No commentary
 
 End With
-Portuguese (ARC) Grammar Notes
+2 Portuguese (ARC) grammar notes
 
-2 notes
-
-Linguistic only
-
-Short and technical
-
-German (HFA) Grammar Notes
-
-2 notes
+2 German (HFA) grammar notes
 
 Linguistic only
 
 Short and technical
+
+Chapter: Genesis 42
