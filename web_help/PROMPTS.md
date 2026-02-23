@@ -1,3 +1,34 @@
+I am posting a video on YouTube. the video is based on
+
+https://github.com/RayAndrade/TheRayCode/blob/main/JavaScript/Structural/Adapter/README.md
+and
+https://github.com/RayAndrade/TheRayCode/blob/main/JavaScript/Structural/Adapter/Example1/README.md
+
+can you give me a title and description I can use when I post??
+
+answer:
+JavaScript Structural Design Pattern: Adapter Pattern with Live Coding Demo
+
+In this video, I walk through the Adapter Design Pattern in JavaScript — a key structural design pattern that helps you make incompatible interfaces work together.
+Whether you’re integrating legacy code, wrapping third-party libraries, or standardizing APIs, the Adapter pattern lets you translate one interface into another without modifying existing code.
+
+👇 What you’ll learn in this video:
+✔ What the Adapter pattern is and when to use it
+✔ How it works under the hood (with UML and real examples)
+✔ A step-by-step JavaScript implementation from the TheRayCode repository
+✔ Practical coding tips for real-world projects
+
+📌 This video is based on the Adapter pattern examples in JavaScript from the TheRayCode GitHub project:
+
+
+🔗 https://github.com/RayAndrade/TheRayCode/tree/main/JavaScript/Structural/Adapter/Example1
+
+If you enjoyed this pattern breakdown and coding walk-through, don’t forget to like, comment, and subscribe for more design patterns in JavaScript! 💡
+
+
+
+=====================================================================================
+
 I see that the UML structure for the {{DESIGN_PATTERN}} design pattern is in the GoF book 
 "Design Patterns: Elements of Reusable Object-Oriented Software".
 
