@@ -1,0 +1,6 @@
+.
+..
+script.md
+show.odp
+sound
+test.txt
