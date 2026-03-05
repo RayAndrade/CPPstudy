@@ -1,11 +1,147 @@
-Good idea. A **checklist is perfect for troubleshooting**, especially since you like to work **step-by-step**.
-Below is a **clean Markdown checklist** you can paste directly into your file:
 
-```bash
-touch tt_audacity.md
+
+```markdown
+# Audacity 2-Minute Pre-Recording Check
+
+Use this before recording any video or narration.
+
+---
+
+## 1. Verify Microphone Detected
+
+Run:
+
+```
+
+arecord -l
+
+```
+
+Expected:
+Your microphone appears in the device list.
+
+If not → unplug USB and reconnect.
+
+---
+
+## 2. Verify Input Level
+
+Open audio control:
+
+```
+
+pavucontrol
+
+```
+
+Input Devices tab:
+
+- [ ] Correct microphone selected
+- [ ] Input meter moves when speaking
+- [ ] Device not muted
+
+---
+
+## 3. Verify Audacity Launch
+
+Start Audacity:
+
+```
+
+flatpak run org.audacityteam.Audacity
+
+```
+
+Check:
+
+- [ ] Recording device = microphone
+- [ ] Channels = Mono
+
+---
+
+## 4. Quick Recording Test
+
+Press **Record**.
+
+Speak for 3 seconds.
+
+Expected:
+
+- [ ] Waveform appears
+- [ ] Input meter moves
+
+If waveform flat → device wrong.
+
+---
+
+## 5. Playback Test
+
+Press **Stop** then **Play**.
+
+Expected:
+
+- [ ] Voice playback through speakers
+
+---
+
+# If Recording Fails
+
+Run system test:
+
+```
+
+arecord test.wav
+aplay test.wav
+
+```
+
+If voice plays → Audacity configuration issue.
+
+If voice does NOT play → Linux audio system issue.
+
+---
+
+# When Asking for Help
+
+Report:
+
+- Output of:
+
+```
+
+arecord -l
+pactl list sources short
+
+```
+
+- Screenshot of Audacity audio settings
 ```
 
 ---
+
+### Why this helps you
+
+When you come back here, instead of saying **“Audacity doesn't work”**, you'll be able to say:
+
+Example:
+
+> Step 1 OK
+> Step 2 input meter not moving
+> Step 4 waveform flat
+
+That lets me **diagnose the problem immediately**.
+
+---
+
+Since you record a lot of **design pattern videos for TheRayCode**, I can also show you later how to create a **single command diagnostic script**, something like:
+
+```bash
+audio-check
+```
+
+that prints **all audio status in one shot**.
+Very handy before recording.
+
 
 ```markdown
 # Audacity Troubleshooting Checklist (Linux / Ubuntu / DreamQuest OS)
@@ -229,8 +365,3 @@ Since **your YouTube lessons and design-pattern videos depend on Audacity**, thi
 * 🎤 **Microphone problem**
 * 🔊 **Linux audio system problem**
 * 🎙 **Audacity configuration problem**
-
----
-
-If you'd like, I can also give you a **much shorter “2-minute diagnostic version”** you can run **before every recording session** for your **TheRayCode videos**.
-
