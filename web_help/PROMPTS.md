@@ -1,3 +1,8 @@
+If you'd like, I can also generate a reusable prompt for this workflow, like:
+
+PROMOTE [youtube-url] [github-url] [language] [pattern]
+
+
 I am posting a video on YouTube. the video is based on
 
 https://github.com/RayAndrade/TheRayCode/blob/main/JavaScript/Structural/Adapter/README.md
