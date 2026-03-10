@@ -1,3 +1,5 @@
+JOURNAL [date] [pattern] [language] [milestone notes]
+
 If you'd like, I can also generate a reusable prompt for this workflow, like:
 
 PROMOTE [youtube-url] [github-url] [language] [pattern]
