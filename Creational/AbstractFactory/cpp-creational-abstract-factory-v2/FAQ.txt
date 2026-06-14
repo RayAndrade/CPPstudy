@@ -1,0 +1,5 @@
+Q: How do I build?
+A: mkdir build && cd build && cmake .. && make
+
+Q: What IDE?
+A: CLion, VSCode, or any C++ compiler
