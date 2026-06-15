@@ -166,6 +166,5 @@ or
 BS 1 Corinthians 12 with Portuguese in column 5
 ```
 
-This now matches the structure you corrected earlier.
 
->>>>>>> 108e9a5a4c3ae157f3d16d2e4c0632b81f4d2c85
+All vocabulary categories (Nouns, Adjectives, Verbs, Adverbs) must be listed in order of first appearance in the chapter text.
