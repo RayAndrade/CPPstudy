@@ -1,5 +1,23 @@
+TRC Java Singleton UML
+uml feature
+https://vimeo.com/1065203415?fl=tl&fe=ec
+the full youtube video
+https://youtu.be/Mnh7WXPJzas?si=1n81S52DR1KjpAAE
+please provide an image with same colors  similar to
+https://github.com/RayAndrade/JavaStudy/blob/main/Creational/Singleton/java-Creational-Singleton-cover.png
+with background
+https://github.com/RayAndrade/JavaStudy/blob/main/work/splash.png
+for Facebook, X and LinkedIn
+do you have any questions?
+
 Of course, Ray.
 Here is a **clear, structured summary** of everything from that starting point forward — no extra expansion, just what we established.
+
+
+
+
+
+
 
 ---
 
