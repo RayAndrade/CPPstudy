@@ -1,49 +1,50 @@
 Act as a software engineering instructor teaching design patterns to beginner and intermediate students.
 
 Task:
-Explain the GoF (Gang of Four) "Participants" section for the design pattern: [Structural Bridge].
+Explain the GoF (Gang of Four) "Participants" section for the design pattern: [Structural Adapter].
 
 Focus:
-- Programming Language: [C++]
-- Audience: Students learning object-oriented programming in [C++]]
+
+Programming Language: [C#]
+Audience: Students learning object-oriented programming in [C#]
 
 Requirements:
 
-1. Identify all UML Participants defined in the GoF pattern.
-2. For each Participant, provide exactly FOUR concise statements describing its function.
-3. Write the explanations in a way that is clear and practical for a [C++] student.
-4. Emphasize how the participant behaves specifically in [C++] (e.g., pointers, inheritance, interfaces, memory management if relevant).
-5. Use correct GoF terminology (e.g., Prototype, ConcretePrototype, Client, etc.).
-6. Avoid unnecessary theory — focus on what each participant DOES.
+Identify all UML Participants defined in the GoF pattern.
+For each Participant, provide exactly FOUR concise statements describing its function.
+Write the explanations in a way that is clear and practical for a [C++] student.
+Emphasize how the participant behaves specifically in [C++] (e.g., pointers, inheritance, interfaces, memory management if relevant).
+Use correct GoF terminology (e.g., Prototype, ConcretePrototype, Client, etc.).
+Avoid unnecessary theory — focus on what each participant DOES.
 
 Output Format:
 
-## Pattern: [Structural Bridge]
-
-### Participant: [Participant Name]
-1. ...
-2. ...
-3. ...
-4. ...
-
-### Participant: [Next Participant Name]
-1. ...
-2. ...
-3. ...
-4. ...
+Pattern: [Structural Adapter]
+Participant: [Participant Name]
+...
+...
+...
+...
+Participant: [Next Participant Name]
+...
+...
+...
+...
 
 (Repeat for all participants)
 
 Add at the end:
 
-## Student Summary
+Student Summary
+
 Provide a short, plain-language summary (1–2 lines per participant) to reinforce understanding.
 
 Tone:
-- Clear
-- Direct
-- Instructor-style
-- No fluff
+
+Clear
+Direct
+Instructor-style
+No fluff
 
 ======================================================================================
 
